@@ -6,10 +6,10 @@ def connect():
     try:
         # Connect to an existing database
         connection = psycopg2.connect(user="user",
-                                    password="password",
-                                    host="localhost",
-                                    port="8888",
-                                    database="database")
+                                    password="batugin2",
+                                    host="34.101.98.206",
+                                    port="5432",
+                                    database="dwh-supplychain")
 
         # Create a cursor to perform database operations
         cursor = connection.cursor()
